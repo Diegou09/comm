@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/formulario_de_producto"
+        android:textSize="20sp"
+        tools:ignore="VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/etCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/c_digo"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/descripci_n"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/etPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:inputType="none"
+        android:hint="@string/Preci0" />
+
+    <Button
+        android:id="@+id/btnAgregarAlCarrito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/agregar_al_carrito"
+        tools:ignore="VisualLintButtonSize" />
+</LinearLayout>

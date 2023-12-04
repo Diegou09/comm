@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtCodigo" type="id" />
+    <item name="txtDescripcion" type="id" />
+    <item name="txtPrecio" type="id" />
+    <item name="txtCantidad" type="id" />
+    <item name="recyclerViewProductos" type="id" />
+    <item name="tvCodigo" type="id" />
+    <item name="tvDescripcion" type="id" />
+    <item name="tvPrecio" type="id" />
+    <item name="btnAgregarCarrito" type="id" />
+    <item name="tvMensajeExito" type="id" />
+    <item name="etCodigo" type="id" />
+    <item name="etDescripcion" type="id" />
+    <item name="etPrecio" type="id" />
+    <item name="btnAgregarAlCarrito" type="id" />
+</resources>
